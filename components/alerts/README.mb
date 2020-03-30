@@ -1,2 +1,20 @@
 # Dependencias:
+
 - Bootstrap >= 4
+
+# Utilização
+
+Alert padrão:
+  new Alerts("TEXTO").show();
+  
+Alert com type:
+  new Alerts("TEXTO").error().show();
+
+Alert com segundos (por padrão é 2):
+  new Alerts("TEXTO").error().show(5);
+
+Types:
+- sucesso()
+- error()
+- warn()
+- info()
