@@ -14,7 +14,7 @@ Alert com segundos (por padrão é 2):
   new Alerts("TEXTO").error().show(5);
 
 Types:
-- sucesso()
-- error()
-- warn()
-- info()
+  success()
+  error()
+  warn()
+  info()
